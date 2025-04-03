@@ -1,5 +1,4 @@
-<!-- The goal of this project is to build a calculator app using HTML and CSS and JavaScript. The application allow user to perform basic operations -->
-<!DOCTYPE html>
+<!-- The goal of this project is to build a calculator app using HTML and CSS and JavaScript. The application allow user to perform basic operations --><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,8 +39,8 @@
 </head>
 <body>
     <h1>Mini Project: Calculator App</h1>
-    <p>Objective: This project aims to build a simple calculator that performs basic arithmetic operations using HTML, CSS, and JavaScript.</p>
-    <div class="calculator">
+
+    <main class="calculator">
         <input type="text" id="display" disabled>
         <div class="buttons">
             <button onclick="clearDisplay()">C</button>
@@ -62,7 +61,9 @@
             <button onclick="calculateResult()">=</button>
             <button onclick="appendToDisplay('+')">+</button>
         </div>
-    </div>
+    </main>
+    <br />
+    <cite>build by: Dev. Abū Ridwān</cite>
     <script>
         function appendToDisplay(value) {
             document.getElementById('display').value += value;
@@ -79,5 +80,4 @@
         }
     </script>
 </body>
-              </html>
-              
+</html>
